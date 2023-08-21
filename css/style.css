@@ -35,6 +35,10 @@
     border-color: white;
 }
 
+.max-width {
+    max-width: 100%;
+}
+
 /*  Header */
 
 .navbar-nav .nav-item .nav-link {
