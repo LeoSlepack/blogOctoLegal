@@ -1,0 +1,76 @@
+/* Estilo geral */
+
+.back-primary-color {
+    background-color: #3B66FF;
+}
+
+.primary-color {
+    color: #3B66FF;
+}
+
+.secondary-color {
+    color: #1C265A;
+}
+
+.white-color {
+    color: white;
+}
+
+.back-white-color {
+    background-color: white;
+}
+
+.back-green-color {
+    background-color: #10BA40;
+}
+
+.border-color-white {
+    border-color: white;
+}
+
+/*  Header */
+
+.navbar-nav .nav-item .nav-link {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #3B66FF;
+}
+
+/* Main */
+
+#main {
+    min-height: 100vh; /* Garante que o conteúdo estenda até o mínimo da altura da viewport */
+    background-color: #F3F4F7
+}
+
+.custom-div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.small-box {
+    background-color: white;
+    height: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+#footer {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-footer:hover {
+    background-color: #3B66FF; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+.btn-footer-blue:hover {
+    background-color: white; /* Cor de fundo ao passar o mouse */
+    color: #3B66FF; /* Cor do texto ao passar o mouse */
+}
