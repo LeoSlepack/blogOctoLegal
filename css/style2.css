@@ -7,6 +7,10 @@
     font-family: 'Inter', sans-serif;;
 }
 
+.font-bold {
+    font-weight: 800;
+}
+
 .back-primary-color {
     background-color: #3B66FF;
 }
