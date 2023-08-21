@@ -1,0 +1,150 @@
+/* Estilo geral */
+
+.back-primary-color {
+    background-color: #3B66FF;
+}
+
+.primary-color {
+    color: #3B66FF;
+}
+
+.secondary-color {
+    color: #1C265A;
+}
+
+.white-color {
+    color: white;
+}
+
+.back-white-color {
+    background-color: white;
+}
+
+.back-green-color {
+    background-color: #10BA40;
+}
+
+.border-color-white {
+    border-color: white;
+}
+
+/*  Header */
+
+.navbar-nav .nav-item .nav-link {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #3B66FF;
+}
+
+.btn-entrar {
+    width: 150px;
+    background-color: #3B66FF;
+    color: white;
+    border-color: #3B66FF;
+}
+
+.btn-entrar:hover {
+    width: 150px;
+    background-color: white;
+    color: #3B66FF;
+}
+
+.modal-header-blue {
+    background-color: #3B66FF;
+    color: white;
+}
+
+/* Main */
+
+.btn-voltar {
+    background-color: #3B66FF4D; /* Cor de fundo com transparência */
+    color: #3B66FF; /* Cor do texto */
+    transition: background-color 0.5s, color 0.5s; /* Transições */
+    width: 150px;
+}
+
+.btn-voltar:hover {
+    background-color: #3B66FF; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+#main {
+    min-height: 100vh; /* Garante que o conteúdo estenda até o mínimo da altura da viewport */
+    background-color: #F3F4F7
+}
+
+ /*
+.title-principal-post {
+    font-size: 100px;
+    font-weight: 600;
+}
+*/
+
+#main .content-base p {
+    color: #95ADC3;
+}
+
+#main-content {
+    background-color: #F3F4F7;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; /* Centraliza horizontalmente as colunas */
+}
+
+.col-lg-9 {
+    display: flex;
+    justify-content: flex-end; /* Alinha a div maior à direita */
+}
+
+.big-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.small-box {
+    background-color: white;
+    height: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.full-width-img {
+    width: 100%;
+}
+
+#footer {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#buttons-footer button {
+    width: 300px;
+    height: 50px;
+}
+
+.btn-footer:hover {
+    background-color: white; /* Cor de fundo ao passar o mouse */
+    color: #3B66FF; /* Cor do texto ao passar o mouse */
+}
+
+.btn-footer-blue:hover {
+    background-color: white; /* Cor de fundo ao passar o mouse */
+    color: #3B66FF; /* Cor do texto ao passar o mouse */
+}
+
+#blog-content {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
