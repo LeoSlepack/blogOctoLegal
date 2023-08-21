@@ -95,17 +95,32 @@
             </div>
         </div><br><br>
         <div class="container-fluid back-primary-color" id="footer">
-            <div class="row">
-                <div class="col-md-5 back-primary-color" id="title-footer">
+            <div class="row justify-content-end">
+                <div class="col-md-9 back-primary-color" id="title-footer">
                     <h1 class="secondary-color">Crie evidências da LGPD em minutos</h1>
-                    <h3 class="white-color">Tudo o que você precisa para criação e gestão do seu programa de privacidade.</h3>
+                    <h3 class="white-color">Tudo o que você precisa para criação e gestão do seu <br> programa de privacidade.</h3>
                 </div>
-                <div class="col-md-6 text-md-end back-primary-color" id="buttons-footer">
-                    <button class="btn btn-primary d-block mb-2 btn-footer white-color back-green-color">Diagnóstico LGPD gratuito</button>
-                    <button class="btn d-block btn-footer-blue white-color border-color-white">Agendar demonstração</button>
+                <div class="col-md-3 text-md-end back-primary-color" id="buttons-footer">
+                    <button 
+                        class="btn btn-primary d-block mb-2 btn-footer white-color back-green-color"
+                        id="iniciar"
+                        href="https://app.octo.legal/"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal-diagnostico">
+                        Diagnóstico LGPD gratuito
+                    </button>
+                    <button 
+                        class="btn d-block btn-footer-blue white-color border-color-white"
+                        id="agende"
+                        href="#"
+                        src="imagens/🦸 Video Button Call To Action (Hero Row).svg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3">
+                        Agende uma demonstração
+                    </button>
                 </div>
             </div>
-        </div>
+        </div>  
         <div class="row mt-5">
             <div class="col-md-4">
                 <div class="d-flex justify-content-center align-items-center mx-auto custom-grid small-box">
@@ -130,6 +145,48 @@
                     </div>
                     <p>Div 3</p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Agenda-- -------------------------------------------------------------------->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <iframe
+                    width="560"
+                    height="515"
+                    src="https://calendly.com/antonio-kno/30min/"
+                    title="Agenda Octo LGPD"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                >
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <!--Modal diagnóstico ---------------------------------------------------------------------->
+    <div
+        class="modal fade"
+        id="modal-diagnostico"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <iframe
+                    width="560"
+                    height="720"
+                    style="max-width: 100%;"
+                    src="https://app.octo.legal/diagnostico"
+                    title="Diagnóstico de Maturidade"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                >
+                </iframe>
             </div>
         </div>
     </div>
