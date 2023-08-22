@@ -1,18 +1,22 @@
 /* Estilo geral */
 
 /* Importação de fonte */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 
 * {
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Sora', sans-serif;;
 }
 
 .text-decoration-none {
     text-decoration: none;
 }
 
-.font-bold {
+.font-bolder {
     font-weight: 800;
+}
+
+.font-bold {
+    font-weight: 500;
 }
 
 .back-primary-color {
@@ -25,6 +29,10 @@
 
 .secondary-color {
     color: #1C265A;
+}
+
+.gray-font {
+    color: #718797;
 }
 
 .white-color {
@@ -71,7 +79,7 @@
 
 .small-box {
     background-color: white;
-    height: 300px;
+    height: auto;
     margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
