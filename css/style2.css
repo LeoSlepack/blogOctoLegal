@@ -7,6 +7,10 @@
     font-family: 'Inter', sans-serif;;
 }
 
+.text-decoration-none {
+    text-decoration: none;
+}
+
 .font-bold {
     font-weight: 800;
 }
