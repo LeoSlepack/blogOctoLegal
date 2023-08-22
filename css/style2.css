@@ -7,6 +7,10 @@
     font-family: 'Sora', sans-serif;;
 }
 
+body {
+    margin-bottom: 100px;
+}
+
 .text-decoration-none {
     text-decoration: none;
 }
@@ -67,7 +71,7 @@
 
 #main {
     min-height: 100vh; /* Garante que o conteúdo estenda até o mínimo da altura da viewport */
-    background-color: #F3F4F7
+    background-color: #F3F4F7;
 }
 
 .custom-div {
